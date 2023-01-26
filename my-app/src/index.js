@@ -2,7 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Rotas from './components/Rotas'
 
 import reportWebVitals from './reportWebVitals';
 // arquivos gerados automáticamente através do comando 'npx create-react-app my-app'
@@ -13,7 +12,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <BrowserRouter>
   <Template />
-  <Rotas />
   </BrowserRouter>
 );
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Routes, BrowserRouter } from "react-router-dom"
-import Produto from './Produto';
 
 class Rotas extends React.Component{
 
