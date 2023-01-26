@@ -1,5 +1,5 @@
 import React from 'react'
-import '../src/nav.css'
+import '../css/nav.css'
 class Nav extends React.Component {
     constructor(props) {
         super(props)
