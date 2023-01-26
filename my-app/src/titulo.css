@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.boxTitle{
+    height: 80px;
+    width: auto;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(43, 142, 0);
+}
