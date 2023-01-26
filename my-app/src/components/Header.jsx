@@ -1,9 +1,9 @@
 import React from 'react'
 import '../css/header.css'
-import compras from '../src/compras.png'
-import pesquisa from '../src/pesquisa.png'
-import perfil from '../src/perfil.png'
-import logoMarca from '../src/LogoMarca.png'
+import compras from '../compras.png'
+import pesquisa from '../pesquisa.png'
+import perfil from '../perfil.png'
+import logoMarca from '../LogoMarca.png'
 
 class Header extends React.Component {
     constructor(props) {

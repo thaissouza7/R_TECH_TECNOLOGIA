@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/footer.css'
-import LogoMarca2 from '../src/LogoMarca2.png'
+import LogoMarca2 from '../LogoMarca2.png'
 class Footer extends React.Component {
     constructor(props) {
         super(props)
