@@ -2,12 +2,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Rotas from './Rotas'
+import Rotas from './components/Rotas'
 
 import reportWebVitals from './reportWebVitals';
 // arquivos gerados automáticamente através do comando 'npx create-react-app my-app'
 
-import Template from './Template';
+import Template from './components/Template';
 import { BrowserRouter, Routes, Switch } from 'react-router-dom'; //importando as classes do react router
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
