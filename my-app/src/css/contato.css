@@ -3,45 +3,80 @@
     padding: 0;
 }
 
-.contato{
-    display: flex;
-    flex-direction: row;
+
+.paiContato{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.emaildiv{
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+#emailid{
+    width: 80px;
+    height: 80px;
+    padding-left: 370px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+
+#titulo{
     text-align: center;
 }
-.caixaProduct{
-    margin: 50px;
-    width: 350px;
-    padding-bottom: 15px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+#titulo2{
     text-align: center;
-    border: solid 2px rgb(43, 142, 0);
-    border-radius: 100px
 }
 
-.imgProduct{
-    width: 250px;
-    align-self: center;
+#telefoneid{
+    margin-top: 4px;
+    text-align: center;
 }
-.descriptionProduct{
-    padding: 25px;
-}
-
-.btnComprar{
-    background-color: rgb(43, 142, 0);
-    border: none;
-    width: 100px;
-    height: 40px;
-    border-radius: 100px;
-    align-self: center;
-    color: white;
-    transition-delay: 0;
-    transition: 0.5s;
+#idmail{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.btnComprar:hover{
-    border-radius: 0;
-    color: rgb(43, 142, 0);
-    background-color: white;
+.mensagem{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.testoMensagem{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding-left: 10px;
+}
+
+.nome{
+    font-size:  20px;
+    width: 610px;
+    height: 50px;
+    padding: 20px 20px;
+    margin: 30px 0  ;
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+#idpName{
+    text-align: left;
+    margin-top: 100px;
+}
+#idpEmail{
+    text-align: left;
+    margin-top: 90px;
+}
+#idpText{
+    height: 200px;
+    margin-top: 90px;
 }
