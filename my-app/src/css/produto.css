@@ -3,6 +3,7 @@
     padding: 0;
 }
 .caixaProduct{
+    background-color: #fdfcfc;
     margin: 50px;
     width: 350px;
     padding-bottom: 15px;
@@ -10,12 +11,15 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: solid 2px rgb(43, 142, 0);
-    border-radius: 100px
+    border: solid 2px #01D174;
+    border-radius: 100px;
+    box-shadow:  10px 5px 5px rgb(200, 247, 195);
 }
 
 .imgProduct{
-    width: 250px;
+    padding: 10px;
+    width: 15rem;
+    height: 15rem;
     align-self: center;
 }
 .descriptionProduct{
