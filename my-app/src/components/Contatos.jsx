@@ -1,5 +1,7 @@
-import React from 'react'
-
+import React from 'react';
+import email from '../img/email.png';
+import telefone from '../img/telefone.png';
+import '../css/contato.css'
 
 class Contato extends React.Component{
     constructor(props){
@@ -8,14 +10,28 @@ class Contato extends React.Component{
     
     render(){
         return(
-            <div className ="contato">
-                <div className="caixaProduct">
-            <img src={this.imgProduct} alt="" className="imgProduct"/>
-            <h4 className="tituloProduct">{this.titulo}</h4>
-            <p className="descriptionProduct">{this.description}</p>
-            <button className="btnComprar">nome</button>
-        </div>
-        </div>
+            <div className ="mestreContato">
+                <div className="paiContato">
+                    <div className='textos'>
+                    <input type="text"placeholder='nome' className='nome' id="idpName"></input>
+                    <input type="email"placeholder='Email' className='nome' id="idpEmail"></input>
+                    <input type="text"placeholder='Envie sua mensagem' className='nome' id="idpText"></input>
+                    </div>
+                   
+                    <div className='emaildiv'>
+                        <h1 className='mensagem'>mande uma mensagem</h1>
+                        <p className='testoMensagem'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, fugiat illum? Omnis dolore facere nisi qui exercitationem, eligendi magni debitis libero enim, placeat non quos ea quam magnam aliquid iusto!</p>
+                        <img src={email} id="emailid"/>
+                        <h3 id="titulo">Envie-me:</h3>
+                        <h2 id="idmail">R-tech@gmail.com</h2>
+                        <img src={telefone} id="emailid"/>
+                        <h3 id="titulo2">Ligue para mim:</h3>
+                        <h2 id="telefoneid">(21) 2114-4444</h2>
+                    </div>
+                </div>
+                
+           
+            </div>
         )
     }
 }
