@@ -16,16 +16,19 @@ root.render(
   <BrowserRouter>
   <Produto 
   imgProduct = {Mouse1} 
-  titulo = 'MOUSE REACT' 
-  description = 'Indicado para jogadores exigentes, o Perdition 3 traz o sensor Pixart PMW 3327, considerado um dos melhores do mercado' />
+  titulo = 'MOUSE OMENARE' 
+  description = 'MOUSE OMENARE Logitech G403 HERO com RGB LIGHTSYNC e Sensor HERO 25K - 910-005631'   
+  price = 'R$ 310,99'/>
   <Produto 
   imgProduct = {Mouse2} 
-  titulo = 'MOUSE REACT' 
-  description = 'Indicado para jogadores exigentes, o Perdition 3 traz o sensor Pixart PMW 3327, considerado um dos melhores do mercado' />
+  titulo = 'MOUSE IMPERAVI' 
+  description = 'MOUSE IMPERAVI Deathadder V2 Chroma, Optical Switch, 20000 DPI' 
+  price='R$ 279,99'/>
   <Produto 
   imgProduct = {Mouse3} 
-  titulo = 'MOUSE REACT' 
-  description = 'Indicado para jogadores exigentes, o Perdition 3 traz o sensor Pixart PMW 3327, considerado um dos melhores do mercado' />
+  titulo = 'MOUSE EMULARI' 
+  description = 'MOUSE EMULARI Cobra, Chroma RGB, 12400DPI' 
+  price ='R$ 256,99'/>
   </BrowserRouter>
 );
 

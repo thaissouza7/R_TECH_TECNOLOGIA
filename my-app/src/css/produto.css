@@ -2,44 +2,64 @@
     margin: 0;
     padding: 0;
 }
+
 .caixaProduct{
-    background-color: #fdfcfc;
+    background-color: #fafafa;
     margin: 50px;
-    width: 350px;
+    width: 300px;
     padding-bottom: 15px;
     height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: solid 2px #01D174;
-    border-radius: 100px;
-    box-shadow:  10px 5px 5px rgb(200, 247, 195);
+    border: solid 2px #5bad4bbd;
+    border-radius: 25px;
+    
+}
+
+.caixaProduct:hover{
+    color: rgb(0,0,0);
+    text-decoration: none;
+    transform: scale(1.03);
+    transition: all 0.9s;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 .imgProduct{
     padding: 10px;
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 10rem;
     align-self: center;
 }
 .descriptionProduct{
-    padding: 25px;
+    padding: 5px;
+    padding-top: 10px;
+    color: rgb(82, 82, 82);
+    font-size: 14px;
 }
 
+.priceProduct{
+    padding: 8px;
+    font-size: 25px;
+    color: #a51b1b;
+}
 .btnComprar{
     background-color: rgb(43, 142, 0);
     border: none;
-    width: 100px;
+    width: 120px;
+    font-size: 17px;
     height: 40px;
     border-radius: 100px;
     align-self: center;
-    color: white;
+    color: black;
     transition-delay: 0;
     transition: 0.5s;
 }
 
 .btnComprar:hover{
-    border-radius: 0;
-    color: rgb(43, 142, 0);
-    background-color: white;
+    color: white;
+    background-color: rgb(35, 99, 16);
+    border-radius: 100px;
+    transform: scale(1.1);
+
 }
