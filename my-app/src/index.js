@@ -16,17 +16,22 @@ import Hardware3 from './img/Hardware3.png';
 import Lupus from './img/Lupus.png';
 import Rufus from './img/Rufus.png';
 import Simensis from './img/Simensis.png';
-// arquivos gerados automáticamente através do comando 'npx create-react-app my-app'
-
 import Template from './components/Template';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+
 import { BrowserRouter, Routes, Switch } from 'react-router-dom'; //importando as classes do react router
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
   <BrowserRouter>
+  <Header />
+  <Nav />
+  <div className='produtosContainer'>
   <Produto 
   imgProduct = {Mouse1} 
   titulo = 'MOUSE OMENARE' 
-  description = 'MOUSE OMENARE Logitech G403 HERO com RGB LIGHTSYNC e Sensor HERO 25K - 910-005631'   
+  description = 'MOUSE OMENARE Logitech G403 HERO com RGB LIGHTSYNC e Sensor HERO 25K'   
   price = 'R$ 310,99'/>
   <Produto 
   imgProduct = {Mouse2} 
@@ -83,6 +88,8 @@ root.render(
   titulo = 'PC SIMENSIS' 
   description = 'PC SIMENSIS 7000 - I7 6700 3.4ghz 8GB DDR4 SSD 240GB Rx 550 4GB Fonte 500w' 
   price ='R$ 256,99'/>
+  </div>
+<Footer />
   </BrowserRouter>
 );
 

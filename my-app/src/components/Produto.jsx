@@ -11,13 +11,15 @@ class Produto extends React.Component{
     }
 
     render(){
-        return <div className="caixaProduct">
+        return  (
+        <div className="caixaProduct">
             <img src={this.imgProduct} alt="" className="imgProduct"/>
             <h4 className="tituloProduct">{this.titulo}</h4>
             <p className="descriptionProduct"><strong>{this.description}</strong></p>
             <h2 className="priceProduct">{this.price}</h2>
             <button className="btnComprar">Comprar</button>
         </div>
+        )
     }
 }
 
