@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Produto from './components/pages/produto/Produto';
 import reportWebVitals from './reportWebVitals';
 
  //importando as classes do react router

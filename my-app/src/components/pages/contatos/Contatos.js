@@ -1,6 +1,6 @@
 import React from 'react';
-import email from '../../img/email.png';
-import telefone from '../../img/telefone.png';
+import email from '../../imagens/email.png';
+import telefone from '../../imagens/telefone.png';
 import './contato.css'
 
 class Contato extends React.Component{

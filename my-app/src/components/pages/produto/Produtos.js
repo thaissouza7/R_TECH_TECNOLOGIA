@@ -1,19 +1,19 @@
 import React from 'react';
-import './produto.css'
-import Mouse1 from '../../img/Mouse1.png';
-import Mouse2 from '../../img/Mouse2.png';
-import Mouse3 from '../../img/Mouse3.png';
-import Headset1 from '../../img/Headset1.png';
-import Headset2 from '../../img/Headset2.png';
-import Headset3 from '../../img/Headset3.png';
-import Hardware1 from '../../img/Hardware1.png';
-import Hardware2 from '../../img/Hardware2.png';
-import Hardware3 from '../../img/Hardware3.png';
-import Lupus from '../../img/Lupus.png';
-import Rufus from '../../img/Rufus.png';
-import Simensis from '../../img/Simensis.png';
+import './produtos.css'
+import Mouse1 from '../../imagens/Mouse1.png';
+import Mouse2 from '../../imagens/Mouse2.png';
+import Mouse3 from '../../imagens/Mouse3.png';
+import Headset1 from '../../imagens/Headset1.png';
+import Headset2 from '../../imagens/Headset2.png';
+import Headset3 from '../../imagens/Headset3.png';
+import Hardware1 from '../../imagens/Hardware1.png';
+import Hardware2 from '../../imagens/Hardware2.png';
+import Hardware3 from '../../imagens/Hardware3.png';
+import Lupus from '../../imagens/Lupus.png';
+import Rufus from '../../imagens/Rufus.png';
+import Simensis from '../../imagens/Simensis.png';
 
-function Produto() {
+function Produtos () {
 
     return (
         <div className="containerProduct">
@@ -104,4 +104,4 @@ function Produto() {
 
         </div>
     )
-} export default Produto
+} export default Produtos

@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import LogoMarca2 from '../img/LogoMarca2.png'
+import LogoMarca2 from '../imagens/LogoMarca2.png'
 
 function Footer() {
     return <div>

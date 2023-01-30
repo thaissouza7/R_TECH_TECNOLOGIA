@@ -1,9 +1,9 @@
 import React from 'react'
 import './header.css'
-import compras from '../img/compras.png'
-import pesquisa from '../img/pesquisa.png'
-import perfil from '../img/perfil.png'
-import logoMarca from '../img/LogoMarca.png'
+import compras from '../imagens/compras.png'
+import pesquisa from '../imagens/pesquisa.png'
+import perfil from '../imagens/perfil.png'
+import logoMarca from '../imagens/LogoMarca.png'
 
 function Header() {
     return <div class="header">

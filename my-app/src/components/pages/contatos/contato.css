@@ -1,82 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-.paiContato{
-  display: flex;
-  flex-direction: row-reverse;
-
-}
-.emaildiv{
-    text-align: left;
-    padding-left: 20px;
-    
-}
-
-#emailid{
-    width: 80px;
-    height: 80px;
-    padding-left: 370px;
-    margin-bottom: 5px;
-    margin-top: 60px;
-}
-
-#titulo{
-    text-align: center;
-}
-#titulo2{
-    text-align: center;
-}
-
-#telefoneid{
-    margin-top: 4px;
-    text-align: center;
-}
-#idmail{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.mensagem{
-    margin-left: 10px;
-    text-align: center;
-}
-
-.testoMensagem{
-    text-align: center;
+.paiContato {
+    height: 90vh;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     display: flex;
-    flex-wrap: wrap;
-    
-    padding-left: 10px;
+    flex-direction: row-reverse;
+
 }
 
-.nome{
-    font-size:  20px;
-    width: 610px;
-    height: 50px;
-    padding: 20px 20px;
-    margin: 30px 0  ;
+.emaildiv {
+
+    margin: 20px;
+    padding: 20px;
+
     display: flex;
-    flex-wrap: wrap;
-    
-  
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-left: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-#idpName{
-    text-align: left;
-    margin-top: 100px;
+.textoMsg {
+    width: auto;
+    text-align: center;
 }
-#idpEmail{
-    text-align: left;
-    margin-top: 90px;
+
+.nome {
+    font-size: 18px;
+    width: 100vh;
+    height: 20px;
+    padding: 8px;
+    margin: 8px 0 8px 0;
+    border-radius: 10px;
 }
-#idpText{
-    height: 200px;
-    margin-top: 90px;
+
+#idpName {
+    height: 5vh;
+}
+
+#idpEmail {
+    height: 5vh;
+}
+
+#idpText {
+    height: 50vh;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos {
+
+    margin: 70px 20px 20px 20px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './titulo.css'
+import '../titulo/titulo.css'
 
 class Titulo extends React.Component{
     constructor(props){
