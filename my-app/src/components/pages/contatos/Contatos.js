@@ -1,7 +1,7 @@
 import React from 'react';
-import email from '../img/email.png';
-import telefone from '../img/telefone.png';
-import '../css/contato.css'
+import email from '../../img/email.png';
+import telefone from '../../img/telefone.png';
+import './contato.css'
 
 class Contato extends React.Component{
     constructor(props){
